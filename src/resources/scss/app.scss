@@ -1,0 +1,12 @@
+@use "variables" as vars;
+
+h1 {
+  color: vars.$red-color;
+  background-color: #000;
+  opacity: 0.8;
+  width: 200px;
+}
+
+h2 {
+  color: vars.$green-color;
+}
