@@ -1,11 +1,11 @@
-@use "variables" as vars;
+@use 'variables' as vars;
 
 h1 {
-  color: vars.$red-color;
-  background-color: #000;
-  opacity: 0.8;
+    color: vars.$red-color;
+    background-color: #000;
+    opacity: 0.8;
 }
 
 h2 {
-  color: vars.$green-color;
+    color: vars.$green-color;
 }
