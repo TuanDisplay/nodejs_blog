@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">F8 Blog</a>
+  <div class="container">
+    <a class="navbar-brand" href="/">F8 Blog</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -13,13 +13,32 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="/img/avatar4.webp" alt="avatar" class="avatar"/>
+              Viết Tuấn
+            </a>
+
+            <ul class="dropdown-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="/courses/create">Đăng khóa học</a>
+                </li>
+
+                <div class="dropdown-divider"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="/me/stored/courses">Khóa học của tôi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bài viết của tôi</a>
+                </li>
+
+                <div class="dropdown-divider"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Đăng xuất</a>
+                </li>
+            </ul>
+        </div>
     </div>
   </div>
 </nav>
